@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.score-block {
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial;
+}
+
+.game {
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+}
+
+.cell {
+    background-color: green;
+}
+
+.snake {
+    background-color: #212121;
+}
+
+.snake-head {
+    background-color: #131313;
+}
+
+.apple {
+    background-color: red;
+}
